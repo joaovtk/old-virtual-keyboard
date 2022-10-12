@@ -58,3 +58,25 @@ input {
         border: 1px solid #000;
     }
 }
+
+@media (max-width: 500px){
+    .virtual-e tr td button {
+        width: 35px;
+        font-size: 21.5pt;
+        top: 300px;
+    }
+    .virtual-e tr td button, input {
+        left: 0px;
+        
+    }
+    .virtual-e tr td button:focus {
+        width: 34px;
+        font-size: 15pt;
+        padding: 0px;
+    }
+    input {
+        width: 413px;
+        border: 1px solid #000;
+        left: 0px;
+    }
+}
