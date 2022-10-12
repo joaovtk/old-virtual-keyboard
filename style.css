@@ -3,45 +3,47 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-.virtul-e table tr td button {
-    position: relative;
-    width: 50px;
-    height: 50px;
-    border-radius: 20px;
-    font-size: 25pt;
-
-}
-input, .virtul-e table tr td button{
-    top: 200px;
-    margin-top: 10px;
-    left: 300px;
-}
 input {
-    width: 570px;
-    height: 50px;
-    position: relative;
-    font-size: 35pt;
-}
-.hidden {
-    display: none;
+    border: 1px solid rgba(0, 0, 0, 0.61);
+    margin-bottom: 50px;
 }
 
-@media (max-width: 375px){
-    .virtul-e table tr td button, input{
+@media (min-width: 300px){
+    input, .virtual-e table tr td button {
         position: relative;
-        width: 25px;
+        top: 300px;
+        right: 5px;
+    } 
+    .virtual-e table tr td button {
+        width: 28px;
         height: 30px;
-        left: 0;
-    }
-    .virtul-e table tr td button {
-        font-size: 10pt;
-        width: 31.5px;
-        height: 50px;
+        border-radius: 20px;
+        font-weight: normal;
     }
     input {
-        width: 370px;
-        height: 80px;
+        position: relative;
+        width: 340px;
+        height: 100px;
+        font-size: 20pt;
+        left: 0px;
     }
 }
 
+
+@media (min-width: 400px){
+    .virtual-e table tr td button {
+        position: relative;
+        width: 30px;
+        height: 60px;
+        font-size: 13pt;
+        text-align: center;
+        font-weight: bold;
+        margin-left: 3.5px;
+        top: 350px;
+        right: 15px;
+    }
+    input {
+        position: relative;
+        width: 390px;
+    }
+}
