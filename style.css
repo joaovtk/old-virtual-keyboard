@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --color-v1: #EBF38B;
+    --color-v2: #F4E87C;
+}
+input {
+    width: 500px;
+    height: 100px;
+    position: relative;
+    top: 100px;
+}
+
+table tr td button {
+    width: 80px;
+    height: 90px;
+    position: relative;
+    top: 210px;
+    background-image: linear-gradient(90deg, var(--color-v1), var(--color-v2));
+    font-size: 35pt;
+}
+
+table tr td button:hover {
+    opacity: 80%;
+    color: #584D3D;
+}
+.backspace {
+    width: 250px;
+}
+.caps {
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
